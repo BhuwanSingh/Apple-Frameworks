@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FrameWorkGridView: View {
+    @StateObject var viewModel = FrameWorkGridViewModel()
     
     let columns: [GridItem] = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]
     
@@ -18,12 +19,15 @@ struct FrameWorkGridView: View {
                     ForEach(MockData.frameworks) { framework in
                         FrameWorkTitleView(framework: framework)
                             .onTapGesture {
-                                print("tapped.")
+                                viewModel.selectedFramework = framework
                             }
                     }
                 }
             }
             .navigationTitle("🍎 Frameworks")
+            .sheet(isPresented: $viewModel.isShowingDetailView){
+                FrameWorkDetailView(isShowingDetailView: $viewModel.isShowingDetailView, framework: viewModel.selectedFramework ?? MockData.sampleDataFramework)
+            }
         }
         .padding()
     }

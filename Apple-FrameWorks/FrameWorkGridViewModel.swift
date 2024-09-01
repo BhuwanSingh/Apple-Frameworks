@@ -7,6 +7,11 @@
 
 import SwiftUI
 
-final class FrameWorkGridViewModel: ObservableObject {
-    var selectedFramework: Framework?
+final class FrameWorkGridViewModel: ObservableObject {    
+    var selectedFramework: Framework?{
+        didSet{
+            isShowingDetailView = true
+        }
+    }
+    @Published var isShowingDetailView = false
 }
