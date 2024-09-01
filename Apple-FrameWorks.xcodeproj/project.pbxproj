@@ -15,6 +15,7 @@
 		F8428B972C846D8200842B06 /* FrameWorkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8428B962C846D8200842B06 /* FrameWorkDetailView.swift */; };
 		F8428B992C8472A700842B06 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8428B982C8472A700842B06 /* AFButton.swift */; };
 		F8428B9B2C84760300842B06 /* FrameWorkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8428B9A2C84760300842B06 /* FrameWorkGridViewModel.swift */; };
+		F8428B9D2C847B3900842B06 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8428B9C2C847B3900842B06 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F8428B962C846D8200842B06 /* FrameWorkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkDetailView.swift; sourceTree = "<group>"; };
 		F8428B982C8472A700842B06 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		F8428B9A2C84760300842B06 /* FrameWorkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkGridViewModel.swift; sourceTree = "<group>"; };
+		F8428B9C2C847B3900842B06 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				F8428B9A2C84760300842B06 /* FrameWorkGridViewModel.swift */,
 				F8428B942C84503B00842B06 /* Framework.swift */,
 				F8428B962C846D8200842B06 /* FrameWorkDetailView.swift */,
+				F8428B9C2C847B3900842B06 /* SafariView.swift */,
 				F8428B982C8472A700842B06 /* AFButton.swift */,
 				F8428B8C2C844FF000842B06 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 				F8428B9B2C84760300842B06 /* FrameWorkGridViewModel.swift in Sources */,
 				F8428B992C8472A700842B06 /* AFButton.swift in Sources */,
 				F8428B872C844FEF00842B06 /* Apple_FrameWorksApp.swift in Sources */,
+				F8428B9D2C847B3900842B06 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
